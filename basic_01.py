@@ -15,3 +15,17 @@ number1 = input("Enter the first number:")
 number2 = input("Enter the second number:")
 sum1 = float(number1)+float(number2)
 print("", str(sum1))
+
+# some methods
+course = "Python for beginners"
+  # print the line
+print(course)
+  # print in uppercase
+print(course.upper())
+  # print in lower case
+print(course.lower())
+  # find a word or letter
+print(course.find('y')) #answer:1
+print(course.find('for')) #answer:7
+  # replace a word or letter with another
+print(course.replace("for", '4'))
