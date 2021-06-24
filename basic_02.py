@@ -26,3 +26,17 @@ if unit.upper() == "K":
 else:
     converted = weight*0.45
     print("Weight in Kgs: "+str(converted))
+
+
+#while loop
+
+i = 1
+while i<=5:
+    print(i)
+    i =i+1
+#pyramid of *
+
+i= 1
+while i <= 10:
+    print(i * "*")
+    i = i+1
