@@ -29,3 +29,7 @@ print(course.find('y')) #answer:1
 print(course.find('for')) #answer:7
   # replace a word or letter with another
 print(course.replace("for", '4'))
+
+
+# in function(give answer in boolean)
+print("Python" in course) #answer:true
